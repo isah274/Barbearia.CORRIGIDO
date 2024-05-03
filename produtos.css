@@ -11,7 +11,7 @@ header {
 
 nav {
   position: absolute;
-  top: 90px;
+  top: 110px;
   right: 0;
 }
 
@@ -27,6 +27,10 @@ nav a {
   text-decoration: none;
   font-size: 22px;
 }
+nav a:hover{
+  color: #c78c19;
+  text-decoration: underline;
+}
 
 .produtos {
   width: 940px;
@@ -36,12 +40,46 @@ nav a {
 
 .produtos li {
   display: inline-block;
-  background-color: #CCCCCC;
   text-align: center;
   width: 30%;
   vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 15px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+.produtos li:hover{
+border-color: #c78c19;
+.produtos li:hover h2{
+  font-size: 34px;
+ }
+}
+.produtos li:active{
+  border-color: #088c19;
 }
 .produtos h2 {
   font-size: 30px;
   font-weight: bolt;
+}
+
+.produtos-desc {
+  font-size: 18px;
+}
+
+.produtos-preco {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 10px 0 0 0;
+}
+footer{
+  text-align: center;
+  background: url("bg.jpg");
+  padding: 40px 0 0;
+}
+
+.copyright{
+  color: #ffffff;
+  font-size: 13px;
+  margin-top: 20px;
 }
