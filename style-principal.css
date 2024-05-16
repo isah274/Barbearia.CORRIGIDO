@@ -27,6 +27,7 @@ nav a {
   text-decoration: none;
   font-size: 22px;
 }
+
 nav a:hover{
   color: #c78c19;
   text-decoration: underline;
@@ -82,4 +83,29 @@ footer{
   color: #ffffff;
   font-size: 13px;
   margin-top: 20px;
+}
+main{
+  width:94px;
+  margin: 0 auto;
+}
+
+form{
+  margin: 40px 0;
+}
+
+form label, form legend{
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+
+}
+.input-padrao{
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+.checkbox{
+  margin: 20px 0;
 }
