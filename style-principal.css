@@ -16,7 +16,7 @@ nav {
 }
 
 nav li {
-  display: inline;
+  display: inline-block;
   margin: 0 0 0 15px;
 }
 
@@ -94,13 +94,13 @@ form{
 }
 
 form label, form legend{
-  display: block;
+  display: inline-block;
   font-size: 20px;
   margin-bottom: 10px;
 
 }
 .input-padrao{
-  display: block;
+  display: inline-block;
   margin-bottom: 20px;
   padding: 10px 25px;
   width: 50%;
@@ -108,4 +108,22 @@ form label, form legend{
 
 .checkbox{
   margin: 20px 0;
+}
+
+.enviar{
+  width: 40%;
+  padding: 15px 0;
+  background: orange;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  transition: 0.5s all;
+  
+}
+
+.enviar:hover{
+  background: purple;
+  transform: scale(1.2);
 }

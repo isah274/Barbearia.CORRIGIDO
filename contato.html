@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+2<!DOCTYPE html>
 <html>
 
   <head>
@@ -7,6 +7,7 @@
     <title>Produtos</title>
     <link href="reset.css" rel="stylesheet">
     <link href="style.principal.css" rel="stylesheet">
+    
   </head>
 
   <body>
@@ -34,13 +35,13 @@
         <input class="input-padrao" type="text" id="nomeSobrenome" required>
 
         <label for="email">Email</label>
-        <input class="input-padrao" type="email" id="email" required>
+        <input class="input-padrao" type="email" id="email" required placeholder="XXXXX@gmail.com">
 
         <label for="telefone">Telefone</label>
-        <input class="input-padrao" type="text" id="telefone" required>
+        <input class="input-padrao" type="text" id="telefone" required placeholder="+55 (XX) XXXXX-XXXX">
 
         <label for="mensagem">Mensagem</label>
-        <textarea class="input-padrao" cols="100" rows="10" id="mensagem" required> </textarea>
+        <textarea class="input-padrao" cols="100" rows="10" id="mensagem" required placeholder="Como podemos te ajudar?"> </textarea>
 
         <fieldset>
           <legend>Como prefere o nosso contato?</legend>
@@ -51,7 +52,7 @@
 
         <label for="radio-whatsapp"><input class="input-padrao" type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
 
-        <input type="submit" value="Enviar o formulário">
+        <input type="submit" value="Enviar" class="enviar">
         </fieldset>
 
         <fieldset>
@@ -64,7 +65,8 @@
         </fieldset>
 
         <label <input class="checkbox" type="checkbox" checked> Gostaria de receber nossas ofertas por Email?</label>
-        <input type="checkbox" cheked>
+
+  <input type="submit" value="Enviar" class="enviar">
       </form>
     </main>
 
