@@ -1,17 +1,21 @@
-.tituloprinc{
+body {
+  background-color: #CCCCCC;
+}
+
+.tituloPrincipal {
   padding-left: 20px;
 }
 
 .principal {
-  background-color: #CCCCCC; 
+  background-color: #9a8484;
   padding: 30px;
 }
 
-.banner {
+#banner {
   width: 100%;
 }
 
-.textocent {
+.textoCentro {
   text-align: center;
 }
 
@@ -23,12 +27,13 @@ p {
   font-size: 20px;
 }
 
-em b {
-  color: blue;
+em strong {
+
+  color: #6c5151;
 }
 
-.beneficios {
-  background-color: #FFFFFF;
+.beneficos {
+  background-color: #938a8a;
   padding: 20px;
 }
 
@@ -41,8 +46,9 @@ ul {
 
 .item {
   font-style: italic;
+  font-size: 15px;
 }
 
-.imagem-beneficio {
+.imgBeneficios {
   width: 50%;
 }
